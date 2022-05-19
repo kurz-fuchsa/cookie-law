@@ -633,7 +633,6 @@ var cc =
               }
           });
           jQuery('#cc-notification-wrapper p').append(' - <a href="/index.php?id=' + cc.settings.idPageInformation + '">' +cc.strings.informationCookies+'</a>');
-          jQuery('#cc-notification-wrapper p').append(' - <a class="cc-link" href="#" id="cc-notification-moreinfo">' + cc.strings.seeDetails + '</a>');
 
           if (cc.settings.consenttype == "implicit") {
               jQuery('#cc-notification-moreinfo').html(cc.strings.seeDetailsImplicit);
